@@ -31,7 +31,7 @@ starObj.prototype.update=function(){
     this.timer +=deltaTime;//deltaTime时间间隔
     if(this.timer>50){//50s后再绘制下一个星星
         this.picNo +=1;
-        this.picNo %=7;//有7个贞
+        this.picNo %=7;//有7个祯
         this.timer=0;
     }
 }
